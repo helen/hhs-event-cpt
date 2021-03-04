@@ -49,7 +49,7 @@ function register_hhs_event_cpt() {
 		'show_ui' => true,
 		'capability_type' => 'post',
 		'hierarchical' => false,
-		'menu_icon' => 'plugin_dir_url(__FILE__) .'images/calendar_16.png'',
+		'menu_icon' => plugin_dir_url(__FILE__) .'images/calendar_16.png',
 		'menu_position' => 3,
 		'rewrite' => array('slug' => 'event', 'with_front' => false),
 		'has_archive' => 'events',
