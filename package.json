@@ -1,0 +1,13 @@
+{
+    "name": "hhs-event-cpt",
+    "version": "1.0.0",
+    "description": "My ancient events CPT",
+    "scripts": {
+        "build": "wp-scripts build"
+    },
+    "author": "Helen Hou-Sandí",
+    "license": "GPL-2.0-only",
+    "devDependencies": {
+        "@wordpress/scripts": "^13.0.3"
+    }
+}
